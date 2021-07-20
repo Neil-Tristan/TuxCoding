@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 175162865220361786}
   - component: {fileID: 7773243723933948067}
   - component: {fileID: 1572665501075134146}
+  - component: {fileID: -2025417780917871017}
   m_Layer: 0
   m_Name: Bool
   m_TagString: Untagged
@@ -110,3 +111,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7475945504349410680, guid: 0a0e486e8fc6aef4d8aee0b4ff0c31f3, type: 3}
+--- !u!54 &-2025417780917871017
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832597547615731695}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 122
+  m_CollisionDetection: 0

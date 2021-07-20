@@ -1,0 +1,153 @@
+I've been a professional developer for ten years (and a hobbyist for nearly 40 years), and, over the past month, I've been trying to learn a new programming subject that's hard for me, even given my experience.
+
+So, I pick up a book and slowly make it through about three pages (sometimes having to google stuff I don't understand). As I read each paragraph, I flip over to a code editor and try out whatever the author is explaining. I do that even if I have that "I get it. I totally get it. I don't need to try it" feeling. I've learned over the years that this feeling can lead me astray, so I don't trust it. I try everything.
+
+For instance, my main language is JavaScript, in which you define variables like this:
+
+var x;
+
+Let's say I'm reading a book on some other language, some new language I've never used before, and the book says that, in this language, you define variables like this:
+
+variable: x;
+
+I'm very tempted to say, "Okay, that's new to me, but I totally get it. It's the same as JavaScript, but you have to spell out the word "variable" and put a colon after it." Even when the concept is as clear and obvious to me as that, I still try it. I don't count myself as having learned anything--anything--until I've actually typed it out with my fingers, compiled it, and watched it run. If it's just a concept in my brain, no matter how confident I am that I get it, I assume I don't get it.
+
+Anyway, it's hard stuff, so as I'm reading and trying, my brain starts to fog up. Two-and-a-half pages in, I'm starting to lose it. By straining really hard, and by rereading paragraphs over and over, I can just barely get it. Then, after three pages, I'm totally lost. And, worse, I have that "I'll never get it" feeling. By which I mean it's crystal clear there's no way I'll ever understand this stuff, because it's simply too hard for me.
+
+I've learned not to trust that feeling, either. Still, I feel it intently every single day. And every single day, I ignore it. Instead of quitting-for-life, what I do is quit for the day. I quit the moment my brain fogs over, and I don't try again until the next day. Which means the most I accomplish on one day is three pages. Three pages of a 1,500-page book!
+
+Even though "I'll never get this, ever," the next day, I'm able to make in through another three pages, and the stuff that was impossible for me yesterday is now possible. Of course, by the end of today's three pages, I'm utterly defeated again. The fact that "I'll never get it" is as obvious to me as the fact that I have four fingers and a thumb on each hand, even though yesterday's version of "I'll never get it" was proven wrong, today.
+
+What's interesting is this: I'm always wrong that I'll never get it. And I never learn from the fact that I'm always wrong. In an intellectual way, I know not to trust that feeling, so I always do pick up the book again--the next day--even though the previous day ended in utter defeat, but no matter how many times my never-getting-it proves to be a lie, it always feels 100% like the truth, and it always will.
+
+Learning often means knowing there's no point in continuing and continuing anyway.
+
+I am sure I will never, ever pick up a hard book like this with the confident feeling that I'll get it, and so I don't wait for that to happen or expect it to happen. I will end every day defeated, and I will start every new day overcoming that defeat. That's called "trial-and-error," and it's the only real way to learn. (And, remember, "trial" mans actually doing something, not just "getting it" in your head. Thinking is not the same as trying, and the moment you think, "I get it, so I don't need to try it," you're sunk.)
+
+Some people hate this process, because it's slow. Just three pages a day?!? (In fact, it's even slower than that, because sometimes I have to backtrack a bit.) Well, learning takes the time it takes. You can either accept that or give up. And if you choose the latter option, have the guts to say "I'm too impatient to spend the time I'd have to spend in order to learn this." Don't say, "I can't possibly learn it."
+
+If you keep working this way, you will eventually get to a point where you can program. Whatever the task is, you'll be able to get it done. But don't expect to ever stop feeling that there's so much to learn.
+
+I know programmers who have been coding for 50 years, and even they feel like there's so much to learn. Technology moves really fast, and new stuff gets added faster than you can learn the old stuff.
+
+Programming is a field for people who want to be life-long learners. It's a field for people who want to keep failing and keep pushing past failure. (Though the full formula, just as with weight-lifting, is push yourself to failure, give yourself time to heal, and then push yourself to failure again.) If you're someone who thinks of education as something that you finish at some point, programming isn't the field for you.
+
+Picture a silly weight-lifter, looking forward to the day when he'll be finished--when he'll be able to coast ... when he'll be able to go to the gym and easily lift the weights. The only way that could be possible is if he quits improving. Which is fine, if that's what he wants to do, but then he shouldn't fool himself and say "I've lifted all the weights there are to life." There will always be more weights.
+
+Update: based on the comments, I'd like to elaborate on three gotchas to watch out for, fear of failure (which I covered above), obsession with deadlines (which I also covered above), and social ranking. All three are, to some extent, natural impulses, and they're greatly encouraged by most schools, which is sad because schools are supposed to be places of learning. And yet they systematically teach people how not to learn.
+
+The gotchas are difficult to counteract, because they're somewhat embedded in our natures and deeply embedded in our cultures, but the first step in fighting them is awareness. Once you become aware of one of these stumbling blocks, you can choose to resist them.
+
+Fear of Failure
+
+If toddlers were cowed by failing, they'd never learn to walk. They'd try once (or a hundred times), fail, and then give up. Somewhere between toddlerhood and adulthood, we learn to fear failure so much, we start avoiding it. We refuse to even embark on activities we're likely to fail at. And, for the most part, our cultures allow-for and encourage us to avoid failure.
+
+We're supposed to struggle a bit in school, but a lot of that struggling is geared towards learning how to avoid failure. It's in school that we learn "I'm not a math person" or "I'm not one of those artsy types." Which is a way of saying, "Great. I have now eliminated a whole area of failure from my life. As long as I avoid it, I won't have to fail vary often."
+
+The goal at most schools is to get straight As. That's ass-backwards: it should be to get straight Fs. Knowing that trial-and-error is the best learning tool, teachers should say, "Bobby has gotten three A's in a row. That's worrisome. We're not challenging him enough. We need to push him to failure, so that he can learn from his mistakes and keep strengthening his abilities. We don't want to train him to coast!"
+
+Parents collude in this conspiracy. Has any parent ever gone to school and said, "You're giving my kid too many As! He's clearly not being challenged"? I'm not really blaming parents and teachers. They're part of a monolithic system with rotten values.
+
+We fail a little when when we start new jobs, but the goal, for most of us, is to get to a point where we can coast. In most jobs--even "intellectual" ones like general-practitioner doctor--the number of totally-new challenges one must overcome each day is staggeringly small. After an initial learning curve, one can coast for decades until retirement.
+
+This isn't considered shameful; it's encouraged. It's part of the good life! You go to work each day, totally confident, because you know everything you'll encounter will be stuff you've dealt with before or stuff similar to stuff you've dealt with before.
+
+Imagine a weight lifter who trained this way. After getting to the point where he was able to lift 100 lbs, he never piles on more weights. He just goes to the gym each day, lifts100 lbs, and says, "Yup! I can still do it! In fact, give me any weight below 100lbs--5lbs, 30lbs, 75lbs--and I can lift it, no problem! I'm versatile!" Would he ever gain any new muscle mass?
+
+Fear-of-failure's most insidious blow to learning is the "I'll never" syndrome. It's when we try things, fail at them once (or a few times), and say, "I'll never get it."
+
+Here's a simple trick to train yourself out of that sort of thinking. Simply forbid yourself to say it. I'm not suggesting you have to keep trying everything you fail at. I'm suggesting you reframe continuing or quitting as a choice, not something you have to do because you suck.
+
+Even if you've failed 100 times, you don't know that you'll never get it. Maybe you could get it after 110 times or 5,000 times. Life is short, and sometimes it makes sense to give up, but that's different from "I'll never get it." That's "I'm choosing to quit because I haven't gotten it yet, and I'd rather not spend any more time trying." Start saying "I might get it if I kept at it, but I don't feel like keeping at it, so I'm quitting." You'll give up the comfort of "It's not my fault. I just can't get it," but you'll gain a sense of self-control.
+
+I've done this constantly and have for years, and I've lost the sense of "This is impossible for me." I don't want to imply I keep trying everything (or most things) until I master them. Very often, I choose to quit. But when I do, I own it. I say, "I could probably learn this given enough time and effort, but there are other things I'd rather do right now." This leaves the door open for me to revisit the subject in the future. "I'll never" closes it.
+
+Programming is hard. It involves constant failure. Is that okay with you? Are you willing to fail over and over in order to build brain muscle? If not, that's fine. Then say, "I could do it, but I'd rather not."
+
+Obsession With Deadlines
+
+"If I don't learn this by Tuesday, I'll lose my job!"
+
+Here's a sad fact--sad the way it's sad that tornadoes exist: learning takes the time that it takes. If it's really true that you'll lose your job unless you learn the thing by Tuesday, and it takes you until Wednesday to learn the thing, you will lose your job. If it takes you more than a school year to learn Algebra I well enough to pass the test, you will fail the test.
+
+In schools, we say "Every single person in this class is expected to learn subject X by date Y," and of course they don't, because people learn at varying rates. We constantly reinforce this relationship between learning and deadlines, but the two simply don't go together. Learning takes the time it takes. Learning a particular subject will take you the time it takes. It won't take a second more; it won't take a second less. It will take exactly the length of time it takes.
+
+You can't know, before you start learning, how long it will take you to finish. "Do you think you can learn this by next month?" The only honest answer to that question is "I don't know. Maybe yes, maybe no." You can't know, ahead of time, how many times you'll fail at this subject, how many times you'll have to backtrack, how many times you'll leap ahead. You can't extrapolate your learning speed from one subject to another, because you don't have a learning speed. You have lots of them. You have one speed for Algebra and another one for banjo.
+
+Of course, if what you're learning now is really similar to what you learned last year--if you learned Java then and you're learning PHP now--you may be able to give a reasonable estimate. By carefully controlling what you choose to learn, by saying "I'm not a functional programmer," you may be able to coast through a simplified, predictable learning process.
+
+In real life, deadlines are less of problem than I'm suggesting, because we build into our social systems all sorts of fudge factors. My boss says I need to learn JavaScript by next month, but what I'll really do--and what I know I can get away with--is to learn just enough to hack together some fragile code that will work but be really hard to maintain. Since my boss doesn't know JavaScript, I'll get away with it, and I'll gradually become a better JavaScript programmer on-the-job.
+
+I'm not suggesting there's anything wrong with this. It's actually the sort of trial-and-error learning I've been advocating. What I'm saying is that lots of what we call mastery ("Yup, I know JavaScript") is really not, and that has to be the case. If we really expected people to truly learn JavaScript, we'd have to forgo deadlines, because learning takes the time it takes.
+
+(In school, the most common form of fudging is cramming to pass the test, and it's a form that most schools allow, if not encourage. Officially or unofficially, it's built into the system. You're not expected to really learn the subject; you're expected to pass the test.)
+
+Here are your choices: you can fudge by a deadline or you can learn without one.
+
+I want to reiterate that I'm not ranking those choices. Each is appropriate in different situations. My advice is to get really clear in your head what your goal is in your current situation. Not your longterm goal, but your goal right now, for whatever subject you're grappling with. Do you need to fudge it by next Wednesday, or do you have unlimited amounts of time, so you can learn it at your own pace.
+
+If you have to fudge, then spend some time researching and thinking about the best way to do that, given the particular needs of the project you're going to work on. If you want (or need) to learn, then do everything you can to take time out of the equation. If your goal is learning, you harm it by saying "It's been three days and I've barely made any progress!"
+
+That's the sort of thing that happens when you're really learning. Expect it. You fail, you have setbacks, you reach plateaus, you take breaks, you try again. It takes the time it takes, and you can't control how long it takes--except by quitting.
+
+A good analogy is learning a foreign language. Are you going to "learn" it or learn it? Either might be appropriate, given your circumstances. Going to Spain next month? Well, then maybe fudging is your best option. Memorize phrases like "How much does that cost?" and "Where's the bathroom?" That's a strategy which perfectly meets your needs, but is it learning Spanish? No. Of course not.
+
+"Yes, but I have to learn it by next month!"
+
+Sorry. Learning takes the time it takes, and the more you focus on next month, the longer it will take, because stress hampers the process.
+
+Learning takes the time it takes.
+
+Social Ranking
+
+Ranking yourself against others is harmful whether you're a slow learner or a fast learner. For the former, it's harmful because "Everyone else is getting it quicker than me, which means I suck!" For the latter--for the faster learner--it means that since he has an edge, he'll probably refuse to challenge himself further, so as to avoid losing his edge. The man who is winning a race isn't likely to throw off his sneakers and put on galoshes, just to make winning harder for himself.
+
+We all know that guy who can ace the Calculus test without even studying. He can ace every subject in his school without studying. What does that mean? It means he's not being challenged. And people like him who get trained, by school, to believe they can breeze through any subject will, later in life, avoid anything that shatters the illusion that they can win without lifting a finger. So they will devote themselves to coasting.
+
+No one is good at everything. There is a point at which, when challenged enough, everyone will fail. So the only way a winner can alway remain win is to avoid certain challenges.
+
+Meanwhile, people on the slower end of the spectrum get so beaten down and humiliated, they quit. They find easier things to do, so that they can coast, too. The goal for most of us, fast or slow, in school and life, is to find a level where we can coast without failure or humiliation.
+
+Which is fine. I'm not against it. But it isn't learning. Learning requires failure. Learning takes the time it takes, and the time it takes you to learn subject X is probably going to be longer or shorter than the time it takes me to learn that same subject. So if we frame it as a race, one of us will be a loser and get humiliated. Meanwhile, the other will be a winner, always worried about losing his title.
+
+Schools could break this pattern by making everyone struggle equally. We wouldn't all be struggling on the same page of the Algebra book, but we'd all be sweating just as hard with something.
+
+I can stand next to a much-stronger guy at the gym, and we can both be struggling the same amount. I can be huffing and puffing lifting 100lbs while he's huffing and puffing lifting 200lbs. What should never happen, if we're both trying to increase our muscle mass, is for one of us to be struggling while the other is easily tossing weights into the air.
+
+In school, I was bad at math, but I clearly remember other students yawning through class and then acing all the tests. I compared myself to them and felt horrible, because, clearly, everything was easy for them and hard for me. Meanwhile, those poor "geniuses" weren't learning anything. Why didn't the teacher challenge them? Why didn't he make them work as hard as I was working? Why didn't he care enough about their education to make them struggle?
+
+No one has infinite amounts of genius. Einstein struggled with some mathematical subjects, so teachers could have easily found ways to challenge my talented classmates.
+
+I was a good writer. I was so good that teachers never challenged me. They just scribbled A's at the tops of my essays, and they were probably grateful that they didn't have to spend as much time working with me as they did the more remedial students. As a result, my writing didn't improve once I reached a plateau of self-learning. I knew I wasn't a perfect or even great writer, but I had no idea how to improve, and no one would help me.
+
+No one helped me in high school. No one helped me in college. I'd quit studying Math, because high school had taught me "I'm not a Math person," and I was coasting through most other subjects, basking in the easy A's that got slapped my papers.
+
+But I wanted to write better, so I begged my teachers for more feedback and more challenges. None were willing (or able?) to provide them. Finally, I got what I wanted by paying for private tutoring with a professional writer. (I'm a big fan of apprenticeships and mentorships, but I won't say more about that, here.)
+
+It was hard for me at first, because I got what I wished for. When, finally, someone was willing to pick my writing apart, I missed the praise I'd gotten in the past. But I'm grateful to my writing tutor, because she really helped me grow. No gain without pain!
+
+We're social animals, so we'll probably never be able to stop ranking ourselves against others, which is too bad, because it's terrible for learning. The fact that Mary learned Physics quickly and easily, while you're struggling, may have some social meaning, but it says nothing about whether or not you have the ability to learn physics.
+
+If it takes Fred an hour to solve a crossword puzzle, and it takes William three hours to solve the same puzzle, the end result is the same--the puzzle is solved. If William watches Fred's progress and assumes, based on Fred's speed, "I'll never be able to solve it," he'll be drawing the wrong conclusions.
+
+While ranking is, to some extent, a natural impulse, schools make it stronger. Most schools turn grades into a competition at some level, even if it's just by naming valedictorians. And many make competition a much more continual part of the process than that. Every time you and your classmates all take the same test and get graded on the results, that's a recipe for ranking. If you're a graduate, think how many years you were indoctrinated into that process.
+
+Some folks claim they learn best through competition. I'm skeptical about how well it works as a pedagogical tool, but I'm sure it's lousy when the competitors are far apart in terms of starting skills and speed. It's not an achievement for a rabbit to outrun a turtle, and turtles are perfectly capable of getting from point A to point B, even if it takes them longer to get there than rabbits. And if the turtle wants to be a rabbit, that's just too bad. He can't be what he's not. But what he can do is improve what he is. And the fact that rabbits exist has no bearing on how much turtles can improve.
+
+Bottom line: you're stuck with the brain that's in your skull. Maybe it's slower in some ways than my brain; maybe it's faster. But my brain's abilities are immaterial to whatever progress you're capable of making, whether that's more or less progress than mine.
+
+My advice is to do whatever is necessary to separate social-ranking concerns from learning. Neither is bad. Neither is objectively more important than the other. We're social animals, so we care about our social rankings. We're inquisitive animals, so we want to learn. Both are important, but they're distinct, and just as your goal--if you really want to learn--can't be to learn by next Wednesday, it also can't be to learn better than Sheila.
+
+Your learning will happen through overcoming failure, it will take the time it takes, and it will take place within the context of your brain and your natural speed at progressing at whatever subject you're learning.
+
+"But I hate to fail." Too bad. You have to if you want to learn.
+
+"But I need to learn by next Wednesday." Too bad. You can't guarantee that. It will take the time it takes.
+
+"But I feel stupider than everyone else." Maybe you are; maybe you aren't. That has nothing to do your ability to learn Latin.
+
+We, in our cultures, constantly confuse social ranking with intelligence and ability, and because true mastery is such a difficult and unpredictable process. We have built-in social fudge factors, just as we build in deadline and mastery fudge factors.
+
+People learn that having the ability to talk about certain subjects, such as politics, makes them sound smart. There are a variety of ways to appear smarter or more skilled than you are, such as lining your bookshelves with classics you haven't read and maneuvering yourself so that you're a big fish in small pond. If you're the only programmer in your office, you'll seem like a really smart programmer to all the folks who can't program at all.
+
+We all do this to a greater or lesser degree. It's fine. It's part of being a human in human culture. But it's not the same thing as learning.
