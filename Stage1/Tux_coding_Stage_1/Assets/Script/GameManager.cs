@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
         startBtn.gameObject.SetActive(true);
         btnText.GetComponent<TextMeshProUGUI>().text = "Restart";
     }
-
+    //Working
     public void startGame() 
     {
         overlayBtn.gameObject.SetActive(false);
