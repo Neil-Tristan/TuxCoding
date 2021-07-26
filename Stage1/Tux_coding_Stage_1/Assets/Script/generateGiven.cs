@@ -10,14 +10,17 @@ public class generateGiven : MonoBehaviour
     public GameObject displayGiven;
     public GameObject materials;
     public GameObject backgroundTv;
-    public GameObject[] platforms = new GameObject[5];
+    public GameObject[] platforms = new GameObject[10];
+    public GameObject gameManager;
+    public string keyValue = "";
     private string fullPath = Directory.GetCurrentDirectory() + "\\Assets\\Data";
-    private List<Action> list = new List<Action>();
+    private List<Action> list = new List<Action>(); //LIST OF METHODS
     private Dictionary<String, Material> dict = new Dictionary<string, Material>();
     private string[] keyDict = {"bool", "string", "char", "int", "float" };
 
     private void Start()
     {
+        //Create a list of method
         list.Add(() => generateBool());
         list.Add(() => generateString());
         list.Add(() => generateChar());
@@ -26,35 +29,35 @@ public class generateGiven : MonoBehaviour
 
         initDict();
 
-        StartCoroutine(gen());
     }
 
-    private IEnumerator gen() 
+    public void RandomGiven() //Generate a given from list and show it to TV
     {
-        for (int a = 0; a < 10; a++) 
+        int size = list.Count;
+        int gen = UnityEngine.Random.Range(0, size);
+        list[gen]();
+        StartCoroutine(changeBackgroundColor());
+    }
+
+    private IEnumerator changeBackgroundColor() //Pampalito
+    {
+        GameObject timerGameObject = gameManager.GetComponent<GameManager>().timer;
+        int sec = int.Parse(timerGameObject.GetComponent<TextMeshPro>().text);
+        while (sec > 0) 
         {
-            //Generate a given
-            int size = list.Count;
-            int rand = UnityEngine.Random.Range(0, size);
-            for (int i = 0; i < size; i++)
+            sec = int.Parse(timerGameObject.GetComponent<TextMeshPro>().text);
+            int randomMat = UnityEngine.Random.Range(0, keyDict.Length);
+            while (keyValue == keyDict[randomMat]) 
             {
-                if (rand == i)
-                {
-                    list[i]();
-                    int randColor = UnityEngine.Random.Range(0, size);
-                    while (randColor == i)
-                    {
-                        randColor = UnityEngine.Random.Range(0, size);
-                    }
-                    Material fakeMat = dict[keyDict[randColor]];
-                    backgroundTv.GetComponent<Renderer>().material = fakeMat;
-                }
+                randomMat = UnityEngine.Random.Range(0, keyDict.Length);
             }
-            yield return new WaitForSeconds(4f);
+            Material fakeMat = dict[keyDict[randomMat]];
+            backgroundTv.GetComponent<Renderer>().material = fakeMat;
+            yield return new WaitForSeconds(0.8f);
         }
     }
 
-    private void initDict() 
+    private void initDict() //Put the values and materials of platform to a dictionary
     {
         for (int i = 0; i < platforms.Length; i++) 
         {
@@ -67,12 +70,12 @@ public class generateGiven : MonoBehaviour
         string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         int r = UnityEngine.Random.Range(0, chars.Length);
         displayGiven.GetComponent<TextMeshPro>().text = "'" + chars[r] + "'";
+        keyValue = "char";
     }
 
     private void generateBool() 
     {
         int r = UnityEngine.Random.Range(0, 2);
-        Debug.Log(r);
         if (r == 0) 
         {
             displayGiven.GetComponent<TextMeshPro>().text = "TRUE";
@@ -81,16 +84,19 @@ public class generateGiven : MonoBehaviour
         {
             displayGiven.GetComponent<TextMeshPro>().text = "FALSE";
         }
+        keyValue = "bool";
     }
 
     private void generateFloat() 
     {
         displayGiven.GetComponent<TextMeshPro>().text = UnityEngine.Random.Range(float.MinValue, float.MaxValue).ToString();
+        keyValue = "float";
     }
 
     private void generateInt() 
     {
         displayGiven.GetComponent<TextMeshPro>().text = UnityEngine.Random.Range(int.MinValue, int.MaxValue).ToString();
+        keyValue = "int";
     }
 
     private void generateString() 
@@ -120,6 +126,7 @@ public class generateGiven : MonoBehaviour
 
         }
         displayGiven.GetComponent<TextMeshPro>().text = "\"" + myNewStr + "\"";
+        keyValue = "string";
     }
 
     private int countTheSpaces(string text) 
