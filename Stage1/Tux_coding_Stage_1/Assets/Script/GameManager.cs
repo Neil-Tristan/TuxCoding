@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public Button overlayBtn;
     public Button startBtn;
+    public GameObject btnText;
     public GameObject timer;
     public GameObject generateGiven;
     public GameObject[] plaforms = new GameObject[10];
@@ -65,6 +66,7 @@ public class GameManager : MonoBehaviour
         }
         overlayBtn.gameObject.SetActive(true);
         startBtn.gameObject.SetActive(true);
+        btnText.GetComponent<TextMeshProUGUI>().text = "Restart";
     }
 
     public void startGame() 

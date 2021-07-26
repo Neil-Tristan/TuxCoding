@@ -70,6 +70,7 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Smoothing\SmoothPosition.cs" />
     <Compile Include="Assets\Script\FixedTouchField.cs" />
     <Compile Include="Assets\Script\FixedButton.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\MovingPlatform.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
@@ -102,7 +103,6 @@
     <Compile Include="Assets\Script\SetBackgroundColor.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\AlignRigidbodyToTarget.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SidescrollerController.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
